@@ -5,6 +5,7 @@ const drawer = ref(false)
 const navigationItems = [
   { title: 'Home', to: '/', icon: 'mdi-home' },
   { title: 'Blog', to: '/blog', icon: 'mdi-post' },
+  { title: 'Videos', to: '/videos', icon: 'mdi-play-circle' },
   { title: 'About', to: '/about', icon: 'mdi-information' },
   { title: 'Services', to: '/services', icon: 'mdi-cogs' },
   { title: 'Contact', to: '/contact', icon: 'mdi-email' }
